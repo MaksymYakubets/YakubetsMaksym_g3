@@ -174,7 +174,7 @@ public class RegistrationPage extends MainPage {
     public void selectState(String state) {                   // by text
         Select select = new Select(webDriver.findElement(By.xpath("//select[@id='id_state']")));
         // select.selectByIndex(index);                       // by index
-        select.selectByVisibleText(state);                    // by text
+                            // by text
     }
 
     /**

@@ -3,6 +3,7 @@ package libs;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -89,4 +90,5 @@ public class WebElements {
     public void checkAC(String message, boolean actualRes, boolean expectedRes) {
         Assert.assertThat(message, actualRes, is(expectedRes));
     }
+
 }

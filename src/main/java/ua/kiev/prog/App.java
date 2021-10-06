@@ -12,8 +12,11 @@ public class App
 {
     public static void main( String[] args )
     {
-       String faker =  new Faker().name().firstName()+new Faker().name().lastName()+
-               new Faker().random()+"@gmail.com";
-        System.out.println(faker.toString());
+        Faker faker = new Faker();
+
+        String name = faker.phoneNumber().phoneNumber();
+
+        String streetAddress = faker.address().streetAddress();
+        System.out.println(name);
     }
 }

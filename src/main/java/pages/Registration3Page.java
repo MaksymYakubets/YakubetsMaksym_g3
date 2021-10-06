@@ -70,6 +70,8 @@ public class Registration3Page extends MainPage {
 
     @FindBy(xpath = "//div[@class='alert alert-danger']/p")
     public WebElement errorsTitle;
+
+
     /**
      * Method open SignIn page
      */
@@ -177,6 +179,9 @@ public class Registration3Page extends MainPage {
         return this;
     }
 
+    public String errorsTitle() {
+        return errorsTitle.getText();
+    }
 
     public String errorText(String path, String errorClass) {
         try {

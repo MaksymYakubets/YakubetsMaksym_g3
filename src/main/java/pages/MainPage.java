@@ -1,5 +1,6 @@
 package pages;
 
+import com.github.javafaker.Faker;
 import libs.WebElements;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
@@ -12,6 +13,7 @@ public class MainPage {
     WebDriver webDriver;
     Logger logger;
     WebElements webElements;
+    Faker faker;
 
     public MainPage(WebDriver webDriver) {
         this.webDriver = webDriver;
