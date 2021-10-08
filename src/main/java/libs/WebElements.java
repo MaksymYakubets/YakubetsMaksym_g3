@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import static org.hamcrest.CoreMatchers.is;
 
@@ -64,6 +65,16 @@ public class WebElements {
             return element.isDisplayed();
         } catch (Exception e) {
             return false;
+        }
+    }
+
+    public void selectTextInDropDownByText(WebElement element, String text){
+        try{
+            Select optionsFromDropDown = new Select(element);
+            optionsFromDropDown.deselectByVisibleText(text);
+            logger.info("Was selected us DropDown by" + text);
+        } catch (Exception e){
+            logger.error("Can't work with element" + element);
         }
     }
 

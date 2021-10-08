@@ -1,5 +1,6 @@
 package ua.prog.kiev;
 
+import baseTest.BaseTest;
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import libs.WebElements;
@@ -11,44 +12,8 @@ import pages.*;
 
 import java.util.concurrent.TimeUnit;
 
-public class RegistrationTests {
-
-    private WebDriver webDriver;
-    Logger logger;
-    WebElements webElement;
+public class RegistrationTests extends BaseTest {
     Faker faker = new Faker();
-
-    public MainPage mainPage;
-    public RegistrationPage registrationPage;
-    public Registration2Page registration2Page;
-    public Registration3Page registration3Page;
-    public MyAccount myAccount;
-
-    @Before
-    public void setUp() {
-        logger = Logger.getLogger(getClass());
-        WebDriverManager.chromedriver().setup(); // download latest version of chromedriver
-        webDriver = new ChromeDriver();
-        webElement = new WebElements(webDriver);
-        logger.info("Get chromeDriver");
-        webDriver.manage().window().maximize();
-        webDriver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
-        logger.info("Wait seconds: 7");
-        logger.info("browser was opened");
-
-        mainPage = new MainPage(webDriver);
-        registrationPage = new RegistrationPage(webDriver);
-        registration2Page = new Registration2Page(webDriver);
-        registration3Page = new Registration3Page(webDriver);
-        myAccount = new MyAccount(webDriver);
-
-    }
-
-    @After
-    public void tearDown() {
-        if (webDriver != null)
-            webDriver.quit(); // close driver
-    }
 
     private final String EMAIL = faker.internet().emailAddress();
     private final String FIRST_NAME = faker.name().firstName();
@@ -60,10 +25,14 @@ public class RegistrationTests {
     private final String STATE2 = "Alabama";
     private final String POST_CODE = faker.number().digits(5);
     private final String MOBILE_PHONE = faker.number().digits(10);
-    private final String COUNTRY = "-";
+    private final String COUNTRY = "USA";
     private final String ERROR_1_JS = "return document.getElementsByClassName('alert-danger')[0].children[1].getElementsByTagName('li')[0].innerText;";
     private final String ERROR_2_JS = "return document.getElementsByClassName('alert-danger')[0].children[1].getElementsByTagName('li')[1].innerText;";
     private final String ERROR_3_JS = "return document.getElementsByClassName('alert-danger')[0].children[1].getElementsByTagName('li')[2].innerText;";
+
+    public RegistrationTests(String browser) {
+        super(browser);
+    }
 
 
     @Ignore
@@ -129,7 +98,6 @@ public class RegistrationTests {
 
     @Test
     public void registrationTest3() {
-        logger.info("test 3 started");
         mainPage.openUrl("http://automationpractice.com/");
         registration3Page
                 .openSignInPage()
@@ -143,21 +111,21 @@ public class RegistrationTests {
                 .inputLastName(LAST_NAME)
                 .inputAddress(STREET)
                 .inputCity(CITY)
-//                .selectState(STATE1)
-                .inputCountry(COUNTRY)
-//                .inputPostCode(POST_CODE)
+                .selectState(STATE2)
+                .selectCountry(COUNTRY)
+                .inputPostCode(POST_CODE)
                 .inputMobilePhone(MOBILE_PHONE)
                 .inputAlias(EMAIL)
                 .clickSubmitAccount();
 
         Assert.assertEquals("There are 3 errors",
                 registration3Page.errorsTitle());
-        logger.info("Error title: " + registration3Page.errorsTitle());
+  //      logger.info("Error title: " + registration3Page.errorsTitle());
 
         Assert.assertEquals("id_country is required.", registration3Page.errorText(ERROR_1_JS, "1st "));
         Assert.assertEquals("Country cannot be loaded with address->id_country", registration3Page.errorText(ERROR_2_JS, "2nd "));
         Assert.assertEquals("Country is invalid", registration3Page.errorText(ERROR_3_JS, "3rd "));
-        logger.info("Test passed");
+   //     logger.info("Test passed");
         System.out.println("Test passed");
         Wait.sleep(2000);
     }
@@ -168,7 +136,6 @@ public class RegistrationTests {
 
     @Test
     public void registrationTest4() {
-        logger.info("test 3 started");
         mainPage.openUrl("http://automationpractice.com/");
         registration3Page
                 .openSignInPage()
@@ -190,10 +157,10 @@ public class RegistrationTests {
                 .clickSubmitAccount();
 
         Assert.assertEquals("There is 1 error", registration3Page.errorsTitle());
-        logger.info("Error title: " + registration3Page.errorsTitle());
+  //      logger.info("Error title: " + registration3Page.errorsTitle());
 
         Assert.assertEquals("This country requires you to choose a State.", registration3Page.errorText(ERROR_1_JS, "1st "));
-        logger.info("Test passed");
+   //     logger.info("Test passed");
         Wait.sleep(3000);
         System.out.println("Test passed");
 
