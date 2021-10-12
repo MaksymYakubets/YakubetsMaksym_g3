@@ -12,6 +12,8 @@ import org.openqa.selenium.WebElement;
 import ua.prog.kiev.Wait;
 import ui.pages.LoginPage;
 
+import java.util.logging.Logger;
+
 import static org.hamcrest.CoreMatchers.is;
 
 public class RegTests extends Base6Test {
@@ -21,28 +23,28 @@ public class RegTests extends Base6Test {
     private final String PASSWORD = "Lesson(#6)";
 
     @Test
-    public void validLogin1Test() {
+    public void validLoginTest() {
         mainPage.openUrl("https://demoqa.com/login");
         loginPage
                 .inputUserName(USER_NAME)
                 .inputPassword(PASSWORD)
                 .clickToLogin();
         Assert.assertEquals(USER_NAME, loginPage.checkUserName());
-        System.out.println("Test passed");
     }
 
     @Test
-    public void validLogin2Test() {
-        mainPage.openUrl("https://demoqa.com/login");
+    public void validLoginFromBookStoreTest() {
+        mainPage.openUrl("https://demoqa.com/books");
+        mainPage.goToLogin();
         loginPage
                 .inputUserName(USER_NAME)
                 .inputPassword(PASSWORD)
                 .clickToLogin();
-        Assert.assertThat("Button is displayed in Page: ",
-                myProfile.logoutButton.isDisplayed(), is(true));
-        Assert.assertEquals("Log out", myProfile.buttonText(myProfile.logoutButton));
-        System.out.println("Test passed");
 
+        Assert.assertThat("Button is displayed in Page: ",
+                booksPage.isElementPresent(booksPage.logoutButton), is(true));
+        Assert.assertEquals("Log out", booksPage.buttonText(booksPage.logoutButton));
+        System.out.println("Test passed");
     }
 
     @Test
@@ -57,5 +59,33 @@ public class RegTests extends Base6Test {
         Assert.assertEquals("Welcome,Login in Book Store", loginPage.getWelcomeText());
         System.out.println("Test passed");
 
+    }
+
+    @Test
+    public void invalidFakeLogin() {
+        mainPage.openUrl("https://demoqa.com/login");
+        loginPage
+                .inputUserName(faker.funnyName().name())
+                .inputPassword(faker.internet()
+                        .password(10, 14, true, true))
+                .clickToLogin();
+
+        Assert.assertEquals("Invalid username or password!", loginPage.loginError.getText());
+        System.out.println("Test passed");
+
+    }
+
+    @Test
+    public void invalidSecondLogin() {
+        mainPage.openUrl("https://demoqa.com/login");
+        loginPage
+                .inputUserName(USER_NAME)
+                .inputPassword(PASSWORD)
+                .clickToLogin();
+
+        loginPage.openUrl("https://demoqa.com/login");
+        Assert.assertThat("USER_name Input is : ",
+                loginPage.isElementPresent(loginPage.userNameInput), is(false));
+        System.out.println("Test passed");
     }
 }

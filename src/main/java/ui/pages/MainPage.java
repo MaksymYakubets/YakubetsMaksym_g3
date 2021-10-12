@@ -17,11 +17,11 @@ public class MainPage {
     WebElements webElements;
     Faker faker;
 
-    @FindBy(xpath = "//span[@class='text'][text()='Login']")
-    public WebElement loginLinkButton;
+    @FindBy(xpath = "//button[@id='login']")
+    public WebElement loginButton;
 
-    public MainPage goToLoginPageByLink(){
-        webElements.clickOnElement(loginLinkButton);
+    public MainPage goToLogin(){
+        webElements.clickOnElement(loginButton);
         return this;
     }
 
@@ -45,6 +45,26 @@ public class MainPage {
             e.printStackTrace();
             logger.error("Page can't opened: " + url);
             Assert.fail("Page can't opened: " + url);
+        }
+    }
+
+    public String buttonText(WebElement element){
+        try {
+            logger.info("button text:  " + element.getText());
+            return element.getText();
+        } catch (Exception e) {
+            logger.error("There is no button " + element + " or text in it");
+            return "There is no button " + element + " or text in it";
+        }
+    }
+
+    public boolean isElementPresent(WebElement element) {
+        try {
+            logger.info("Element is present: " + element.getText() + "//" + element);
+            return element.isDisplayed();
+        } catch (Exception e) {
+            logger.error("Element is not present: " + element);
+            return false;
         }
     }
 }

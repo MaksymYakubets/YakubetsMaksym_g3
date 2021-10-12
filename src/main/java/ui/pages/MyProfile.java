@@ -8,27 +8,6 @@ public class MyProfile extends MainPage {
     public MyProfile(WebDriver webDriver) {
         super(webDriver);
     }
-  /*  public MyProfile(WebDriver webDriver) {
-        super(webDriver);
-        if (!webDriver.getTitle().equals("Home Page of logged in user")) {
-            throw new IllegalStateException("This is not Home Page of logged in user," +
-                    " current page is: " + webDriver.getCurrentUrl());
-        }
-    }*/
-
-    /**
-     * Get message (h1 tag)
-     *
-     * @return String message text
-     */
- /*   public String getMessageText() {
-        return webDriver.findElement(messageBy).getText();
-    }*/
-
-    public MyProfile manageProfile() {
-        // Page encapsulation to manage profile functionality
-        return new MyProfile(webDriver );
-    }
 
     @FindBy(xpath = "//button[@id = 'submit'][text()='Log out']")
     public WebElement logoutButton;
@@ -82,16 +61,6 @@ public class MyProfile extends MainPage {
         } catch (Exception e) {
             logger.error(element + " is not displayed");
             return false;
-        }
-    }
-
-    public String buttonText(WebElement element){
-        try {
-            logger.info("button text:  " + element.getText());
-            return element.getText();
-        } catch (Exception e) {
-            logger.error("There is no button " + element + " or text in it");
-            return "There is no button " + element + " or text in it";
         }
     }
 

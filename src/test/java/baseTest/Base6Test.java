@@ -30,6 +30,7 @@ public class Base6Test{
         public RegPage regPage;
         public LoginPage loginPage;
         public MyProfile myProfile;
+        public BookStore booksPage;
         public Utils utils = new Utils();
 
   //      public String browser;
@@ -62,7 +63,7 @@ public class Base6Test{
 
             webDriver.manage().window().maximize();
             JavascriptExecutor executor = (JavascriptExecutor)webDriver;
-            executor.executeScript("document.body.style.zoom = '1.75'");
+            executor.executeScript("document.body.style.zoom = '75%'");
             webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
             File file = new File("");
@@ -79,6 +80,7 @@ public class Base6Test{
             regPage = new RegPage(webDriver);
             myProfile = new MyProfile(webDriver);
             loginPage = new LoginPage(webDriver);
+            booksPage = new BookStore(webDriver);
         }
 
         @After

@@ -1,13 +1,11 @@
 package ui.pages;
 
-import com.github.javafaker.Faker;
-import libs.WebElements;
-import org.apache.log4j.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginPage extends MainPage{
+public class LoginPage extends MainPage {
     public LoginPage(WebDriver webDriver) {
         super(webDriver);
     }
@@ -36,46 +34,41 @@ public class LoginPage extends MainPage{
     @FindBy(xpath = "//*[@id='userForm']/div[1]/h5")
     public WebElement welcomeText2;
 
+    @FindBy(xpath = "//div[@class='login-wrapper']//p")
+    public WebElement loginError;
 
 
-    public LoginPage inputUserName(String userName){
-      /*  if(new WebElements().isElementPresent(logoutButton))
-            logger.info("Can't login. c in");
-        else*/
+    public LoginPage inputUserName(String userName) {
         webElements.inputText(userNameInput, userName);
         return this;
     }
 
-    public LoginPage inputPassword(String password){
-        /*if(new WebElements().isElementPresent(logoutButton))
-            logger.info("Can't login. You are already logged in");
-        else*/
+    public LoginPage inputPassword(String password) {
         webElements.inputText(passwordInput, password);
         return this;
     }
 
-    public LoginPage clickToLogin(){
+    public LoginPage clickToLogin() {
         webElements.clickOnElement(loginButton);
-        logger.info("You are successfully logged in");
         return this;
     }
 
-    public LoginPage clickNewUser(){
+    public LoginPage clickNewUser() {
         webElements.clickOnElement(newUserButton);
         return this;
     }
 
-    public LoginPage clickLogout(){
+    public LoginPage clickLogout() {
         webElements.clickOnElement(logoutButton);
         return this;
     }
 
-    public String getWelcomeText(){
-        logger.info("Welcome text is: " + welcomeText1.getText()+welcomeText2.getText());
-        return (welcomeText1.getText()+welcomeText2.getText());
+    public String getWelcomeText() {
+        logger.info("Welcome text is: " + welcomeText1.getText() + welcomeText2.getText());
+        return (welcomeText1.getText() + welcomeText2.getText());
     }
 
-     public String checkUserName(){
+    public String checkUserName() {
         return userNameValue.getText();
     }
 
