@@ -1,0 +1,401 @@
+2021-11-10 20:07:32   INFO [RegistrationTests:58  ] : chrome is started
+2021-11-10 20:07:38   INFO [RegistrationTests:62  ] : chrome is started
+2021-11-10 20:07:38   INFO [RegistrationTests:65  ] : chrome is started
+2021-11-10 20:07:44   INFO [RegistrationTests:69  ] : chrome is started
+2021-11-10 20:07:49   INFO [  MainPage:33  ] : Page was opened: http://automationpractice.com/
+2021-11-10 20:07:51   INFO [Registration3Page:33  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-11-10 20:07:51   INFO [WebElements:33  ] : kelle.smitham@hotmail.com was inputted
+2021-11-10 20:07:52   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ebebce3e7b2e7e9da5e71ad65f81a390)] -> id: SubmitCreate]
+2021-11-10 20:07:53   INFO [WebElements:33  ] : Rosendo was inputted
+2021-11-10 20:07:54   INFO [WebElements:33  ] : VonRueden was inputted
+2021-11-10 20:07:54   INFO [WebElements:33  ] : kelle.smitham@hotmail.com was inputted
+2021-11-10 20:07:55   INFO [WebElements:33  ] : f5jo1kt2n was inputted
+2021-11-10 20:07:55   INFO [WebElements:33  ] : Rosendo was inputted
+2021-11-10 20:07:56   INFO [WebElements:33  ] : VonRueden was inputted
+2021-11-10 20:07:56   INFO [WebElements:33  ] : Shanahan Ferry was inputted
+2021-11-10 20:07:57   INFO [WebElements:33  ] : Jeanettfort was inputted
+2021-11-10 20:07:57  ERROR [WebElements:77  ] : Can't work with element[[ChromeDriver: chrome on WINDOWS (ebebce3e7b2e7e9da5e71ad65f81a390)] -> xpath: //select[@id='id_state']]
+2021-11-10 20:07:57  ERROR [WebElements:77  ] : Can't work with element[[ChromeDriver: chrome on WINDOWS (ebebce3e7b2e7e9da5e71ad65f81a390)] -> xpath: //select[@id='id_country']]
+2021-11-10 20:07:58   INFO [WebElements:33  ] : 14072 was inputted
+2021-11-10 20:07:58   INFO [WebElements:33  ] : 7570457761 was inputted
+2021-11-10 20:07:59   INFO [WebElements:33  ] : kelle.smitham@hotmail.com was inputted
+2021-11-10 20:08:02   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ebebce3e7b2e7e9da5e71ad65f81a390)] -> xpath: //button[@id='submitAccount']]
+2021-11-10 20:08:04   INFO [RegistrationTests:65  ] : firefox is started
+2021-11-10 20:08:07   INFO [RegistrationTests:69  ] : firefox is started
+2021-11-10 20:08:12   INFO [  MainPage:33  ] : Page was opened: http://automationpractice.com/
+2021-11-10 20:08:13   INFO [Registration3Page:33  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-11-10 20:08:14   INFO [WebElements:33  ] : darrick.nicolas@gmail.com was inputted
+2021-11-10 20:08:14   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (1735d6354b5fa14c0210b9612d22ab97)] -> id: SubmitCreate]
+2021-11-10 20:08:17   INFO [WebElements:33  ] : Keren was inputted
+2021-11-10 20:08:17   INFO [WebElements:33  ] : Davis was inputted
+2021-11-10 20:08:18   INFO [WebElements:33  ] : darrick.nicolas@gmail.com was inputted
+2021-11-10 20:08:19   INFO [WebElements:33  ] : 9360pngx was inputted
+2021-11-10 20:08:19   INFO [WebElements:33  ] : Keren was inputted
+2021-11-10 20:08:20   INFO [WebElements:33  ] : Davis was inputted
+2021-11-10 20:08:20   INFO [WebElements:33  ] : Jerica Crossing was inputted
+2021-11-10 20:08:21   INFO [WebElements:33  ] : Everetthaven was inputted
+2021-11-10 20:08:21  ERROR [WebElements:77  ] : Can't work with element[[ChromeDriver: chrome on WINDOWS (1735d6354b5fa14c0210b9612d22ab97)] -> xpath: //select[@id='id_state']]
+2021-11-10 20:08:21  ERROR [WebElements:77  ] : Can't work with element[[ChromeDriver: chrome on WINDOWS (1735d6354b5fa14c0210b9612d22ab97)] -> xpath: //select[@id='id_country']]
+2021-11-10 20:08:22   INFO [WebElements:33  ] : 86179 was inputted
+2021-11-10 20:08:22   INFO [WebElements:33  ] : 7301761623 was inputted
+2021-11-10 20:08:23   INFO [WebElements:33  ] : darrick.nicolas@gmail.com was inputted
+2021-11-10 20:08:26   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (1735d6354b5fa14c0210b9612d22ab97)] -> xpath: //button[@id='submitAccount']]
+2021-11-10 20:33:40   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 20:34:42   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 20:37:21   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 20:37:25   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 20:37:26   INFO [WebElements:33  ] : Hattie was inputted
+2021-11-10 20:37:26   INFO [WebElements:33  ] : Klein was inputted
+2021-11-10 20:37:27   INFO [WebElements:33  ] : moira.kozey was inputted
+2021-11-10 20:37:27   INFO [WebElements:33  ] : xu0pgxi3m1p was inputted
+2021-11-10 20:37:47  ERROR [WebElements:50  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='recaptcha-anchor']'
+2021-11-10 20:43:36   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 20:43:39   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 20:43:40   INFO [WebElements:33  ] : Rayford was inputted
+2021-11-10 20:43:41   INFO [WebElements:33  ] : Sanford was inputted
+2021-11-10 20:43:41   INFO [WebElements:33  ] : adrian.auer was inputted
+2021-11-10 20:43:42   INFO [WebElements:33  ] : ljjti56sk was inputted
+2021-11-10 20:55:04   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 20:55:11   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 20:55:12   INFO [WebElements:33  ] : Jeffrey was inputted
+2021-11-10 20:55:13   INFO [WebElements:33  ] : Mante was inputted
+2021-11-10 20:55:13   INFO [WebElements:33  ] : vernon.goodwin was inputted
+2021-11-10 20:55:13   INFO [WebElements:33  ] : dc708bg13u was inputted
+2021-11-10 21:00:05   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 21:00:08   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 21:00:09   INFO [WebElements:33  ] : Jonathan was inputted
+2021-11-10 21:00:09   INFO [WebElements:33  ] : Schiller was inputted
+2021-11-10 21:00:09   INFO [WebElements:33  ] : katelynn.carter was inputted
+2021-11-10 21:00:10   INFO [WebElements:33  ] : 355rmmi3p was inputted
+2021-11-10 21:03:07   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 21:03:13   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 21:03:14   INFO [WebElements:33  ] : Letisha was inputted
+2021-11-10 21:03:14   INFO [WebElements:33  ] : Hudson was inputted
+2021-11-10 21:03:15   INFO [WebElements:33  ] : dusty.macgyver was inputted
+2021-11-10 21:03:15   INFO [WebElements:33  ] : y7vgdyvnv was inputted
+2021-11-10 21:27:20   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 21:27:26   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 21:27:27   INFO [WebElements:33  ] : Gonzalo was inputted
+2021-11-10 21:27:27   INFO [WebElements:33  ] : Hessel was inputted
+2021-11-10 21:27:28   INFO [WebElements:33  ] : george.davis was inputted
+2021-11-10 21:27:28   INFO [WebElements:33  ] : 7icdwr1trf was inputted
+2021-11-10 21:33:02   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 21:33:06   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 21:33:07   INFO [WebElements:33  ] : Shanti was inputted
+2021-11-10 21:33:07   INFO [WebElements:33  ] : Littel was inputted
+2021-11-10 21:33:07   INFO [WebElements:33  ] : carole.armstrong was inputted
+2021-11-10 21:33:07   INFO [WebElements:33  ] : mwr4jvzy was inputted
+2021-11-10 21:34:00   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 21:34:06   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 21:34:07   INFO [WebElements:33  ] : Ezekiel was inputted
+2021-11-10 21:34:07   INFO [WebElements:33  ] : McClure was inputted
+2021-11-10 21:34:08   INFO [WebElements:33  ] : mirta.schmitt was inputted
+2021-11-10 21:34:08   INFO [WebElements:33  ] : yeglhpee was inputted
+2021-11-10 21:40:37   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 21:40:41   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 21:40:42   INFO [WebElements:33  ] : Ferdinand was inputted
+2021-11-10 21:40:42   INFO [WebElements:33  ] : Champlin was inputted
+2021-11-10 21:40:43   INFO [WebElements:33  ] : benedict.hessel was inputted
+2021-11-10 21:40:43   INFO [WebElements:33  ] : nxafeuwey was inputted
+2021-11-10 21:41:19   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 21:41:24   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/register
+2021-11-10 21:41:25   INFO [WebElements:33  ] : Brenda was inputted
+2021-11-10 21:41:26   INFO [WebElements:33  ] : Davis was inputted
+2021-11-10 21:41:26   INFO [WebElements:33  ] : jasmine.mitchell was inputted
+2021-11-10 21:41:27   INFO [WebElements:33  ] : u6hrq640hz5 was inputted
+2021-11-10 22:40:49   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 22:40:53   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 22:42:14   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 22:42:16   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 22:46:14   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 22:46:19   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 22:46:57   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 22:47:00   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 22:49:21   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 22:49:25   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 22:50:53   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 22:50:58   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 22:52:40   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 22:52:43   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 22:53:59   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 22:54:03   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 22:55:11   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 22:55:14   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:02:13   INFO [  RegTests:57  ] : Get chromeDriver
+2021-11-10 23:02:15   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:03:16   INFO [  RegTests:57  ] : Get chromeDriver
+2021-11-10 23:03:19   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:04:55   INFO [  RegTests:57  ] : Get chromeDriver
+2021-11-10 23:04:58   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:10:59   INFO [  RegTests:58  ] : Get chromeDriver
+2021-11-10 23:11:03   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:12:47   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:12:50   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:13:30   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:13:33   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:14:18   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:14:22   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:16:22   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:16:26   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:17:06   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:17:09   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:23:15   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:23:18   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:24:25   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:24:28   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:26:26   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:26:30   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:26:31   INFO [WebElements:52  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (79dd1ae30c2a02ca419200e47d9032be)] -> xpath: //button[@id='login']]
+2021-11-10 23:26:31   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-11-10 23:26:49   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:26:52   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:26:53   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-11-10 23:26:54   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-11-10 23:27:04   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-11-10 23:27:04   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-11-10 23:29:52   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:29:57   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:29:58   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-11-10 23:29:58   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-11-10 23:30:08   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-11-10 23:30:08   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-11-10 23:30:12   INFO [  RegTests:60  ] : Get chromeDriver
+2021-11-10 23:30:15   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-11-10 23:30:16   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-11-10 23:30:17   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-11-10 23:30:27   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-11-10 23:30:27   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 14:24:22   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 14:24:26   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 14:24:26   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 14:24:27   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 14:24:37   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 14:24:37   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 14:36:25   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 14:36:30   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 14:36:30   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 14:36:31   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 14:36:41   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 14:36:41   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 14:40:06   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 14:40:11   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 14:40:12   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 14:40:12   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 14:40:22   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 14:40:22   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 14:42:25   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 14:42:29   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 14:42:29   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 14:42:30   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 14:42:40   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 14:42:40   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 14:45:59   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 14:46:04   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 14:46:05   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 14:46:05   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 14:46:15   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 14:46:15   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 14:57:14   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 14:57:17   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 14:59:30   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 14:59:32   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:00:08   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:00:11   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:00:30   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:00:33   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:01:06   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:01:09   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:01:38   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:01:41   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:04:20   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:04:22   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:04:56   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:05:40   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:07:35   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:07:58  ERROR [WebElements:39  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='userName']'
+2021-12-10 15:09:31   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:09:34   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:09:35   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 15:09:35   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 15:09:46   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 15:09:46   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 15:10:24   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:10:31   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:10:32   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 15:10:35   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 15:10:45   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 15:10:45   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 15:13:37   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:13:41   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:13:41   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 15:13:44   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 15:13:55   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 15:13:55   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 15:15:38   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:15:43   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:15:44   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 15:15:47   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 15:15:58   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 15:15:58   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 15:22:55   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:22:58   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:22:59   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 15:22:59   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 15:23:09   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 15:23:09   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 15:24:19   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:24:21   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:24:23   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 15:24:23   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 15:24:33   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 15:24:33   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 15:24:33   INFO [ MyProfile:50  ] : User name is QA_AUTO
+2021-12-10 15:32:20   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 15:32:23   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 15:32:24   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 15:32:24   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 15:32:35   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 15:32:35   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 15:32:35   INFO [ MyProfile:86  ] : button text  Log out
+2021-12-10 15:32:35   INFO [ MyProfile:50  ] : User name is QA_AUTO
+2021-12-10 16:03:15   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 16:03:18   INFO [  MainPage:33  ] : Page was opened: https://demoqa.com/login
+2021-12-10 16:03:19   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 16:03:19   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 16:03:29   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 16:03:29   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 16:03:30   INFO [ MyProfile:86  ] : button text:  Log out
+2021-12-10 16:03:30   INFO [ MyProfile:50  ] : User name is: QA_AUTO
+2021-12-10 17:21:47   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 17:21:51   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 17:21:52   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 17:21:52   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 17:22:03   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 17:22:03   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 17:22:04  ERROR [WebElements:54  ] : Can't work with element [[ChromeDriver: chrome on WINDOWS (42a7ed14d0e5fcc908c433a0222fda1c)] -> xpath: //span[@class='text'][text()='Login']]
+2021-12-10 17:48:15   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 17:48:18   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 17:48:19   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 17:48:19   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 17:48:29   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 17:48:29   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 17:48:31  ERROR [WebElements:54  ] : Can't work with element [[ChromeDriver: chrome on WINDOWS (85e71f58cfe09b904680eedfc3454aff)] -> xpath: //span[@class='text'][text()='Login']]
+2021-12-10 17:51:14   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 17:51:18   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 17:51:19   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 17:51:19   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 17:51:29   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 17:51:29   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 17:51:30  ERROR [WebElements:54  ] : Can't work with element [[ChromeDriver: chrome on WINDOWS (4f1e751088992d462e642487d2539672)] -> xpath: //span[@class='text'][text()='Login']]
+2021-12-10 17:53:03   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 17:53:06   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 17:53:07   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 17:53:07   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 17:53:17   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 17:53:17   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 17:53:18  ERROR [WebElements:54  ] : Can't work with element [[ChromeDriver: chrome on WINDOWS (77abc45f496ce3cb51c07b9c29b7ff6f)] -> xpath: //span[@class='text'][text()='Login']]
+2021-12-10 17:54:52   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 17:54:55   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 17:54:56   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 17:54:56   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 17:55:06   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 17:55:06   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 17:55:07  ERROR [WebElements:54  ] : Can't work with element [[ChromeDriver: chrome on WINDOWS (710a18cf92bdd81919e32da1198bc8bc)] -> xpath: //span[@class='text'][text()='Login']]
+2021-12-10 17:59:04   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 17:59:06   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 17:59:08   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 17:59:08   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 17:59:18   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 17:59:18   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 17:59:19  ERROR [WebElements:54  ] : Can't work with element [[ChromeDriver: chrome on WINDOWS (124fb57b05c61922a0036f07c8221fd3)] -> xpath: //span[@class='text'][text()='Login']]
+2021-12-10 18:02:03   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 18:02:06   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:02:07   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:02:07   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:02:18   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:02:18   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 18:02:21  ERROR [WebElements:54  ] : Can't work with element [[ChromeDriver: chrome on WINDOWS (a0f194f8616ab790cc71a65fd02a8037)] -> xpath: //span[@class='text'][text()='Login']]
+2021-12-10 18:05:40   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 18:05:44   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:05:44   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:05:45   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:05:55   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:05:55   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 18:06:17  ERROR [WebElements:54  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //button[@id = 'submit'][text()='Go To Book Store']'
+2021-12-10 18:06:57   INFO [  RegTests:60  ] : Get chromeDriver
+2021-12-10 18:07:00   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:07:01   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:07:01   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:07:12   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:07:12   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 18:07:22   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id = 'submit'][text()='Log out']'
+2021-12-10 18:17:28   INFO [  RegTests:61  ] : Get chromeDriver
+2021-12-10 18:17:32   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:17:33   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:17:33   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:17:43   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:17:43   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 18:17:53   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id = 'submit'][text()='Log out']'
+2021-12-10 18:18:52   INFO [  RegTests:61  ] : Get chromeDriver
+2021-12-10 18:18:54   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:18:55   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:18:56   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:19:06   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:19:06   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 18:19:16   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id = 'submit'][text()='Log out']'
+2021-12-10 18:20:54   INFO [  RegTests:61  ] : Get chromeDriver
+2021-12-10 18:20:57   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:20:58   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:20:58   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:21:08   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:21:08   INFO [ LoginPage:53  ] : You are successfully logged in
+2021-12-10 18:21:19   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id = 'submit'][text()='Log out']'
+2021-12-10 18:21:19   INFO [ MyProfile:59  ] : You have successfully logout
+2021-12-10 18:28:31   INFO [  RegTests:61  ] : Get chromeDriver
+2021-12-10 18:28:33   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:28:34   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:28:35   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:28:45   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:28:45   INFO [ LoginPage:59  ] : You are successfully logged in
+2021-12-10 18:28:55   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id = 'submit'][text()='Log out']'
+2021-12-10 18:28:55   INFO [ MyProfile:59  ] : You have successfully logout
+2021-12-10 18:31:13   INFO [  RegTests:61  ] : Get chromeDriver
+2021-12-10 18:31:16   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:31:18   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:31:18   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:31:28   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:31:28   INFO [ LoginPage:59  ] : You are successfully logged in
+2021-12-10 18:31:38   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id = 'submit'][text()='Log out']'
+2021-12-10 18:31:38   INFO [ MyProfile:59  ] : You have successfully logout
+2021-12-10 18:33:00   INFO [  RegTests:61  ] : Get chromeDriver
+2021-12-10 18:33:03   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:33:04   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:33:04   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:33:15   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:33:15   INFO [ LoginPage:59  ] : You are successfully logged in
+2021-12-10 18:33:25   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id = 'submit'][text()='Log out']'
+2021-12-10 18:33:25   INFO [ MyProfile:59  ] : You have successfully logout
+2021-12-10 18:33:25   INFO [ LoginPage:74  ] : Welcome,Login in Book Store
+2021-12-10 18:33:25   INFO [ LoginPage:74  ] : Welcome,Login in Book Store
+2021-12-10 18:36:27   INFO [  RegTests:61  ] : Get chromeDriver
+2021-12-10 18:36:31   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:36:32   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:36:33   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:36:43   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:36:43   INFO [ LoginPage:59  ] : You are successfully logged in
+2021-12-10 18:36:47   INFO [  RegTests:61  ] : Get chromeDriver
+2021-12-10 18:36:50   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:36:50   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:36:50   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:37:01   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:37:01   INFO [ LoginPage:59  ] : You are successfully logged in
+2021-12-10 18:37:01   INFO [ MyProfile:90  ] : button text:  Log out
+2021-12-10 18:37:04   INFO [  RegTests:61  ] : Get chromeDriver
+2021-12-10 18:37:08   INFO [  MainPage:43  ] : Page was opened: https://demoqa.com/login
+2021-12-10 18:37:09   INFO [WebElements:37  ] : QA_AUTO was inputted
+2021-12-10 18:37:10   INFO [WebElements:37  ] : Lesson(#6) was inputted
+2021-12-10 18:37:20   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='login']'
+2021-12-10 18:37:20   INFO [ LoginPage:59  ] : You are successfully logged in
+2021-12-10 18:37:30   INFO [WebElements:52  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id = 'submit'][text()='Log out']'
+2021-12-10 18:37:30   INFO [ MyProfile:59  ] : You have successfully logout
+2021-12-10 18:37:30   INFO [ LoginPage:74  ] : Welcome,Login in Book Store

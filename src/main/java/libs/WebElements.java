@@ -20,6 +20,10 @@ public class WebElements {
         logger = Logger.getLogger(getClass());
     }
 
+    public WebElements() {
+
+    }
+
     /**
      * Method input text
      *
