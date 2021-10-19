@@ -1,5 +1,6 @@
 package lesson.pages;
 
+import io.qameta.allure.Step;
 import model.Account;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -88,7 +89,6 @@ public class Registration3Page extends MainPage {
     public WebElement errorsTitle;
 
 
-
     /**
      * Method click to SignIn page
      */
@@ -96,8 +96,6 @@ public class Registration3Page extends MainPage {
         openUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account");
         return this;
     }
-
-
 
 
     /*public Registration3Page inputEmailCreate(String email) {
@@ -109,83 +107,92 @@ public class Registration3Page extends MainPage {
         webElements.clickOnElement(submitButtonCreate);
         return this;
     }*/
-
-    public Registration3Page selectGender(String gender){
+    @Step("Select {gender}")
+    public Registration3Page selectGender(String gender) {
         if (gender.equals("Mr.")) {
-            webElements.clickRadioButton(genderMr,gender);
+            webElements.clickRadioButton(genderMr, gender);
         } else {
-            webElements.clickRadioButton(genderMrs,gender);
+            webElements.clickRadioButton(genderMrs, gender);
         }
         return this;
     }
-
+    @Step("Input first name: {firstName}")
     public Registration3Page inputCustomerFN(String firstName) {
         webElements.inputText(customerFistName, firstName);
         return this;
     }
-
+    @Step("Input last name: {lastName}")
     public Registration3Page inputCustomerLN(String lastName) {
         webElements.inputText(customerLastName, lastName);
         return this;
     }
-
+    @Step("Input email: {email}")
     public Registration3Page inputEmail(String email) {
         webElements.inputText(emailInput, email);
         return this;
     }
 
+    @Step("Input password: {password}")
     public Registration3Page inputPassword(String password) {
         webElements.inputText(passwordInput, password);
         return this;
     }
 
-    public Registration3Page selectBirthDay(String day){
+    @Step("Input birth day: {day}")
+    public Registration3Page selectBirthDay(String day) {
         webElements.selectValueInDropDown(daysDropDown, day);
         return this;
     }
 
-    public Registration3Page selectMonth(String month){
+    @Step("Input birth month: {month}")
+    public Registration3Page selectMonth(String month) {
         webElements.selectValueInDropDown(monthsDropDown, month);
         return this;
     }
 
-    public Registration3Page selectYear(String year){
+    @Step("Input birth year: {year}")
+    public Registration3Page selectYear(String year) {
         webElements.selectValueInDropDown(yearsDropDown, year);
         return this;
     }
 
-
+    @Step("Input firstName: {firstName}")
     public Registration3Page inputFirstName(String firstName) {
         webElements.inputText(firstNameInput, firstName);
         return this;
     }
 
+    @Step("Input lastName: {lastName}")
     public Registration3Page inputLastName(String lastName) {
         webElements.inputText(lastNameInput, lastName);
         return this;
     }
 
+    @Step("Input street: {street}")
     public Registration3Page inputAddress(String street) {
         webElements.inputText(addressInput, street);
         return this;
     }
 
+    @Step("Input city: {city}")
     public Registration3Page inputCity(String city) {
         webElements.inputText(cityInput, city);
         return this;
     }
 
+    @Step("Select state: {text}")
     public Registration3Page selectState(String text) {
         webElements.selectTextInDropDownByText(stateSelect, text);
         return this;
     }
 
-    public Registration3Page selectCountry (String  text){
+    @Step("Select country: {text}")
+    public Registration3Page selectCountry(String text) {
         webElements.selectTextInDropDownByText(idCountry, text);
         return this;
     }
 
-
+    @Step("Input postcode: {postCode}")
     public Registration3Page inputPostCode(String postCode) {
         webElements.inputText(postCodeInput, postCode);
         return this;
@@ -197,22 +204,25 @@ public class Registration3Page extends MainPage {
         return this;
     }
 
+    @Step("Input mobile phone: {phone}")
     public Registration3Page inputMobilePhone(String phone) {
         webElements.inputText(phoneMobileInput, phone);
         return this;
     }
 
+    @Step("Input alias: {alias}")
     public Registration3Page inputAlias(String alias) {
         webElements.inputText(aliasInput, alias);
         return this;
     }
 
+    @Step("Submit Account")
     public Registration3Page clickSubmitAccount() {
         webElements.clickOnElement(submitAccount);
         return this;
     }
 
-    public Registration3Page registrationNewUser(Account account){
+    public Registration3Page registrationNewUser(Account account) {
         selectGender(account.getGender());
         inputCustomerFN(account.getFirstCustomerName());
         inputCustomerLN(account.getLastCustomerName());

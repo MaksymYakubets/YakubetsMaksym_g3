@@ -2,6 +2,7 @@ package lesson;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Step;
 import libs.Utils;
 import libs.WebElements;
 import org.apache.log4j.Logger;
@@ -40,6 +41,7 @@ public class BaseTest {
 
     @Parameters("browserName")
     @BeforeClass(alwaysRun = true)
+    @Step("Set up browser options {browser}")
     public void setUp(@Optional("chrome") String browser) {
          if (browser.toLowerCase().equals("chrome")) {
             logger.info(browser + " will be started");
@@ -81,7 +83,8 @@ public class BaseTest {
         System.out.println("initPage is done");
     }
 
-    @AfterMethod
+    @AfterClass
+    @Step("Tear down browser {browser}")
     public void tearDown() {
         if (webDriver != null)
             utils.screenShot(patchToScreenshot, webDriver);

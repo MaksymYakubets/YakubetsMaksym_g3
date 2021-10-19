@@ -1,6 +1,7 @@
 package lesson;
 
 import dataProviders.RegistrationPageDataProvider;
+import io.qameta.allure.*;
 import lesson.BaseTest;
 import lesson.pages.SignInPage;
 import com.github.javafaker.Faker;
@@ -32,7 +33,14 @@ public class RegistrationTests extends BaseTest {
     private final String ERROR_3_JS = "return document.getElementsByClassName('alert-danger')[0].children[1].getElementsByTagName('li')[2].innerText;";
 
 
-
+    @Epic(value = "Registration")
+    @Story(value="User can registration for this test")
+    @Description(value = "Test registration new account")
+    @Issue("Lesson 7-8")
+    @TmsLink(value="CARDTR")
+    @Link(value = "link", url = "http://automationpractice.com/")
+    @Owner("Yakubets Maksym")
+    @Severity(value = SeverityLevel.CRITICAL)
     @Test(dataProvider = "registrationNewUser", dataProviderClass = RegistrationPageDataProvider.class)
     public void testCreateNewAccount(Account userAccount) {
         mainPage.openUrl("http://automationpractice.com/");

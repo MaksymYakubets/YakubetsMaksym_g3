@@ -1,6 +1,7 @@
 package lesson.pages;
 
 import com.github.javafaker.Faker;
+import io.qameta.allure.Step;
 import libs.WebElements;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -31,6 +32,8 @@ public class MainPage {
      *
      * @param url
      * */
+
+    @Step("Open URL {url}")
     public void openUrl(String url) {
         try {
             webDriver.get(url);
