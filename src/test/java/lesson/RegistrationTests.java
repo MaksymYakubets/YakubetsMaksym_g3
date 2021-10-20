@@ -32,12 +32,11 @@ public class RegistrationTests extends BaseTest {
     private final String ERROR_2_JS = "return document.getElementsByClassName('alert-danger')[0].children[1].getElementsByTagName('li')[1].innerText;";
     private final String ERROR_3_JS = "return document.getElementsByClassName('alert-danger')[0].children[1].getElementsByTagName('li')[2].innerText;";
 
-
-    @Epic(value = "Registration")
+    @Epic(value = "Registration-lesson")
     @Story(value="User can registration for this test")
     @Description(value = "Test registration new account")
     @Issue("Lesson 7-8")
-    @TmsLink(value="CARDTR")
+    @TmsLink(value="CARDTR-1")
     @Link(value = "link", url = "http://automationpractice.com/")
     @Owner("Yakubets Maksym")
     @Severity(value = SeverityLevel.CRITICAL)

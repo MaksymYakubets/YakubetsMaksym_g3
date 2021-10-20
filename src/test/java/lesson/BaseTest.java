@@ -2,10 +2,13 @@ package lesson;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import libs.Utils;
 import libs.WebElements;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import lesson.pages.*;
@@ -87,7 +90,13 @@ public class BaseTest {
     @Step("Tear down browser {browser}")
     public void tearDown() {
         if (webDriver != null)
+            screenshot();
             utils.screenShot(patchToScreenshot, webDriver);
         webDriver.quit(); // close driver
+    }
+
+    @Attachment(value = "screenshot", type = "image.png")
+    public byte[] screenshot(){
+        return ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BYTES);
     }
 }

@@ -1,6 +1,7 @@
 package ui.pages;
 
 import com.github.javafaker.Faker;
+import io.qameta.allure.Step;
 import libs.WebElements;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -37,6 +38,7 @@ public class MainPage {
      *
      * @param url
      * */
+    @Step("Open Url: {url}")
     public void openUrl(String url) {
         try {
             webDriver.get(url);
@@ -48,6 +50,7 @@ public class MainPage {
         }
     }
 
+    @Step("Get button text: {element.getText()}")
     public String buttonText(WebElement element){
         try {
             logger.info("button text:  " + element.getText());
@@ -58,6 +61,7 @@ public class MainPage {
         }
     }
 
+    @Step("Check is Element Present: {element.isDisplayed()}")
     public boolean isElementPresent(WebElement element) {
         try {
             logger.info("Element is present: " + element.getText() + "//" + element);

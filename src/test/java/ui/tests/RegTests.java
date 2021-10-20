@@ -2,11 +2,25 @@ package ui.tests;
 
 import baseTest.BaseTest;
 import com.github.javafaker.Faker;
+import io.qameta.allure.*;
+import org.aspectj.lang.annotation.Aspect;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
+
+import java.util.Locale;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
+
+@Epic(value = "Validation-home")
+@Story(value="User can SignIn")
+@Issue("Lesson 7-8")
+@TmsLink(value="CARDTR-2")
+@Link(value = "link", url = "https://demoqa.com/")
+@Owner("Yakubets Maksym")
+@Severity(value = SeverityLevel.CRITICAL)
 public class RegTests extends BaseTest {
     Faker faker = new Faker();
 
@@ -27,9 +41,8 @@ public class RegTests extends BaseTest {
         WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[@class='recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox']/div[@class='recaptcha-checkbox-checkmark']"))).click()
 
     }*/
-
-
-
+    @Ignore
+    @Description(value = "Account validation home tests")
     @Test
     public void validLoginTest() {
         mainPage.openUrl("https://demoqa.com/login");
@@ -39,7 +52,8 @@ public class RegTests extends BaseTest {
                 .clickToLogin();
         Assert.assertEquals(USER_NAME, loginPage.checkUserName());
     }
-
+    @Ignore
+    @Description(value = "Account validation home tests")
     @Test
     public void validLoginFromBookStoreTest() {
         mainPage.openUrl("https://demoqa.com/books");
@@ -55,6 +69,8 @@ public class RegTests extends BaseTest {
         System.out.println("Test passed");
     }
 
+    @Ignore
+    @Description(value = "Account validation home tests")
     @Test
     public void validLoginLogoutTest() {
         mainPage.openUrl("https://demoqa.com/login");
@@ -69,6 +85,8 @@ public class RegTests extends BaseTest {
 
     }
 
+    @Step("Invalid Fake Login test")
+    @Description(value = "Account validation home tests")
     @Test
     public void invalidFakeLogin() {
         mainPage.openUrl("https://demoqa.com/login");
@@ -79,10 +97,12 @@ public class RegTests extends BaseTest {
                 .clickToLogin();
 
         Assert.assertEquals("Invalid username or password!", loginPage.loginError.getText());
+        String result = loginPage.loginError.getText();
         System.out.println("Test passed");
 
     }
-
+    @Ignore
+    @Description(value = "Account validation home tests")
     @Test
     public void invalidSecondLogin() {
         mainPage.openUrl("https://demoqa.com/login");

@@ -1,6 +1,7 @@
 package ui.pages;
 
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -38,16 +39,19 @@ public class LoginPage extends MainPage {
     public WebElement loginError;
 
 
+    @Step("Input FAKE username: {userName}")
     public LoginPage inputUserName(String userName) {
         webElements.inputText(userNameInput, userName);
         return this;
     }
 
+    @Step("Input FAKE password: {password}")
     public LoginPage inputPassword(String password) {
         webElements.inputText(passwordInput, password);
         return this;
     }
 
+    @Step("Click To Login")
     public LoginPage clickToLogin() {
         webElements.clickOnElement(loginButton);
         return this;
@@ -63,6 +67,7 @@ public class LoginPage extends MainPage {
         return this;
     }
 
+    @Step("getWelcomeText")
     public String getWelcomeText() {
         logger.info("Welcome text is: " + welcomeText1.getText() + welcomeText2.getText());
         return (welcomeText1.getText() + welcomeText2.getText());

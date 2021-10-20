@@ -1,5 +1,6 @@
 package ui.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -33,6 +34,7 @@ public class MyProfile extends MainPage {
         return userNameValue.getText();
     }
 
+    @Step("Click to logout")
     public MyProfile clickLogout(){
         webElements.clickOnElement(logoutButton);
         logger.info("You have successfully logout");
@@ -54,6 +56,7 @@ public class MyProfile extends MainPage {
         return this;
     }
 
+    @Step("Check is Element Present: {element.isDisplayed()}")
     public boolean isElementPresent(WebElement element) {
         try {
             logger.info(element + " is displayed");
