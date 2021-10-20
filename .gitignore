@@ -1,7 +1,9 @@
 .idea/
+.allure/
 target/
 *.iml
 *.log
 junitTests/
 testNgTest/
+suits/
 
