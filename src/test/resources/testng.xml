@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="RegistrationTests+HomeValidationTests" parallel="tests" thread-count="2">
+    <test name="ChromeTest" verbose="1" parallel="true">
+        <parameter name="browserName" value="chrome">
+            <classes>
+                <class name="lesson.RegistrationTests"/>
+            </classes>
+        </parameter>
+    </test>
+
+    <test name="FirefoxTest" verbose="1" parallel="true">
+        <parameter name="browserName" value="firefox">
+            <classes>
+                <class name="lesson.RegistrationTests"/>
+            </classes>
+        </parameter>
+    </test>
+
+    <test name="ChromeTestHome" verbose="1" parallel="true">
+        <parameter name="browserName" value="chrome">
+            <classes>
+                <class name="ui.tests.RegTests"/>
+            </classes>
+        </parameter>
+    </test>
+
+    <test name="FirefoxTestHome" verbose="1" parallel="true">
+        <parameter name="browserName" value="firefox">
+            <classes>
+                <class name="ui.tests.RegTests"/>
+            </classes>
+        </parameter>
+    </test>
+</suite>
+

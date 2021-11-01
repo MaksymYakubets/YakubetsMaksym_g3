@@ -1,0 +1,17 @@
+.idea/
+.allure/
+target/
+*.iml
+*.log
+junitTests/
+testNgTests/
+suits/
+build/*
+*log.
+*.jar
+lesson.pages/
+lesson/
+ua.kiev.prog/
+
+
+
