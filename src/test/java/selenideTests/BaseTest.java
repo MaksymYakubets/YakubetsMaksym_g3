@@ -14,10 +14,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pagesSelenide.MainPage;
-import pagesSelenide.MyAccountPage;
-import pagesSelenide.RegistrationPage;
-import pagesSelenide.SignInPage;
+import pagesSelenide.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -32,6 +29,7 @@ public class BaseTest {
     public RegistrationPage registrationPage = new RegistrationPage();
     public MyAccountPage myAccountPage = new MyAccountPage();
     public MainPage mainPage = new MainPage();
+    public ProductPage productPage = new ProductPage();
 
     public void setUpBrowser(){
         ChromeOptions options = new ChromeOptions();

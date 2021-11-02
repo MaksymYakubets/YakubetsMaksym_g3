@@ -114,7 +114,7 @@ public class RegistrationPage {
         return this;
     }
 
-    @Step("Select state: {text}")
+    @Step("Select state: {state}")
     public RegistrationPage selectState(String state) {
         stateSelect.selectOptionContainingText(state);
         return this;
