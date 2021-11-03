@@ -35,13 +35,11 @@ public class RegistrationTests extends BaseTest {
         myAccountPage.titleRegisteredAccount.shouldHave(Condition.visible);
         Assert.assertEquals(myAccountPage.getAccountName(),
                 userAccount.getFirstCustomerName() + " " + userAccount.getLastCustomerName());
-
-
     }
 
     @Test
     public void findProduct() {
-        Selenide.open(Configuration.baseUrl);
+       Selenide.open(Configuration.baseUrl);
         mainPage.getProduct(ITEM_1).clickOnProduct(ITEM_1);
         productPage.productName.shouldHave(Condition.visible); //1
         Assert.assertEquals(ITEM_1, productPage.productName.getText()); //2

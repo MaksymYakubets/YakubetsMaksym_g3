@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="RegistrationTests+HomeValidationTests" parallel="tests" thread-count="2">
+<suite name="RegistrationTests+HomeValidationTests" parallel="tests" thread-count="6">
     <test name="ChromeTest" verbose="1" parallel="true">
         <parameter name="browserName" value="chrome">
             <classes>
