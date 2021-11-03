@@ -1,3 +1,4 @@
+/*
 package baseTest;
 
 import com.github.javafaker.Faker;
@@ -6,14 +7,14 @@ import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import libs.Utils;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
-import ui.pages.*;
+import pagesSelenoid.*;
+
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -54,8 +55,10 @@ public class BaseTest {
         }
 
         webDriver.manage().window().maximize();
-     /*   JavascriptExecutor executor = (JavascriptExecutor) webDriver;
-        executor.executeScript("document.body.style.zoom = '75%'");*/
+     */
+/*   JavascriptExecutor executor = (JavascriptExecutor) webDriver;
+        executor.executeScript("document.body.style.zoom = '75%'");*//*
+
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         File file = new File("");
@@ -88,4 +91,4 @@ public class BaseTest {
     public byte[] screenshot(){
         return ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BYTES);
     }
-}
+}*/

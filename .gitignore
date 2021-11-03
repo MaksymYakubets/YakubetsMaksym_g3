@@ -12,6 +12,9 @@ build/*
 lesson.pages/
 lesson/
 ua.kiev.prog/
+baseTest/
+ui.test/
+
 
 
 

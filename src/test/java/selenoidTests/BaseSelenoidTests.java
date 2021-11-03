@@ -8,6 +8,7 @@ import com.codeborne.selenide.testng.TextReport;
 import com.codeborne.selenide.testng.annotations.Report;
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import libs.Utils;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -15,6 +16,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import pagesSelenide.*;
+import pagesSelenoid.*;
+import pagesSelenoid.MainPage;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,11 +27,12 @@ import java.util.Map;
 public class BaseSelenoidTests {
     public Faker faker = new Faker();
 
-    public SignInPage signInPage = new SignInPage();
-    public RegistrationPage registrationPage = new RegistrationPage();
-    public MyAccountPage myAccountPage = new MyAccountPage();
     public MainPage mainPage = new MainPage();
-    public ProductPage productPage = new ProductPage();
+    public RegPage regPage = new RegPage();
+    public LoginPage loginPage = new LoginPage();
+    public MyProfile myProfile = new MyProfile();
+    public BookStore booksPage = new BookStore();
+    public Utils utils = new Utils();
 
     public void setUpBrowser() {
         ChromeOptions options = new ChromeOptions();
@@ -48,8 +52,8 @@ public class BaseSelenoidTests {
             case ("local"):
                 WebDriverManager.chromedriver().browserVersion("94").setup();
                 Configuration.browser = "chrome";
-                Configuration.timeout = 20000;
-                Configuration.baseUrl = "http://automationpractice.com";
+                Configuration.timeout = 10000;
+                Configuration.baseUrl = "https://demoqa.com/login";
                 Configuration.screenshots = true;
                 Configuration.savePageSource = true;
                 Configuration.reopenBrowserOnFail = true;
@@ -67,7 +71,7 @@ public class BaseSelenoidTests {
                 capabilities.setCapability("enableVideo", true);
                 capabilities.setCapability("enableLog", true);
                 Configuration.browserCapabilities = capabilities;
-                Selenide.open("http://automationpractice.com");
+                Selenide.open("https://demoqa.com/login");
                 break;
         }
     }
